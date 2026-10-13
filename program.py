@@ -1,11 +1,14 @@
-1.n=2
+1.check even or odd
+n=2
 if(n%2==0):
   print("even number")
 else:
   print("odd nummber")
 o/p
    even number
-2.a=2
+
+2.check positive,negative or zero
+a=2
 if(a>0):
  print("positive")
 elif(a<o):
@@ -14,7 +17,9 @@ else:
 print("zero")
 o/p
 positive
-3.a=int(input("enter first number:"))
+
+3.find the largest of two numbers
+a=int(input("enter first number:"))
 b=int(input("enter second number:"))
 if(a>b):
   print("A is largest")
@@ -24,7 +29,9 @@ o/p
 enter first number:10
 enter second number:20
 B is largest
-4.a=int(input("enter your voting:"))
+
+4.check voting eligibility
+a=int(input("enter your voting:"))
 if(a>=22):
   print("your voting is eligible")
 else:
@@ -32,7 +39,9 @@ else:
 o/p
 enter your voting:18
 your voting is eligible
-5.a=int(input("enter your mark:"))
+
+5.check pass or fail
+a=int(input("enter your mark:"))
 if(a>75):
   print("pass")
 else:
@@ -40,7 +49,9 @@ else:
 o/p
 enter your mark:60
 fail
-6.a=int(input("enter first number:"))
+
+6.find the largest of three numbers
+a=int(input("enter first number:"))
 b=int(input("enter second number:"))
 c=int(input("enter third number:"))
 if(a>b):
@@ -54,7 +65,9 @@ enter first number:50
 enter second number:30
 enter third number:40
 A is largest
-7.a=int(input("enter a year:"))
+
+7.check leap year or not
+a=int(input("enter a year:"))
 if a%4==0:
   print("leap year")
 else:
@@ -62,7 +75,9 @@ else:
 o/p
 enter a year:2024
 leap year
-8.a=int(input("enter a number:"))
+
+8.check whether a number is divisible by 5
+a=int(input("enter a number:"))
 if(a%5==0):
   print("divisible by 5")
 else:
@@ -70,7 +85,9 @@ else:
 o/p
 enter a number:20
 divisible by 5
-9.a=int(input("enter a number:"))
+
+9.
+a=int(input("enter a number:"))
 if(a%5==0) and (a%3==0):
   print("divisible by 5 or 3")
 elif(a%5==0):
