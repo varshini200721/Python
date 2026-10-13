@@ -112,4 +112,3 @@ else:
 o/p
 enter the number15
 last digit is not 5
-13.
