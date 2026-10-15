@@ -241,5 +241,58 @@ positive
 enter a number:0
 zero
 
+22.peter son number    
+n=int(input("enter a number:"))
+temp=n
+total=0
+while temp>0:
+  digit=temp%10
+  fact=1
+  
+  for i in range(1,digit+1):
+    fact*=i
+    total+=fact
+    temp//=10
+    
+if total==n:
+      print("peter son number")
+else:
+      print("not a peter son number")
+  o/p
+enter a number:2
+not a peter son number
+
+23.inverted pyramid
+n=5
+
+for i in range(n,0,-1):
+  print(" " * (n-i)+ "*" * (2 * i - 1))
+  o/p
+*********
+ *******
+  *****
+   ***
+    *
+
+24.diamond pyramid
+n = 5
+
+for i in range(1, n+1):
+    print(" " * (n-i) + "*" * (2*i-1))
+
+for i in range(n-1, 0, -1):
+    print(" " * (n-i) + "*" * (2*i-1))
+  o/p
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+
 
 
